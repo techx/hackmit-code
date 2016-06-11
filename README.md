@@ -1,5 +1,7 @@
 # HackMIT Open Source
 
+The source code of [code.hackmit.org](http://code.hackmit.org).
+
 ## Copyright and License
 
 Copyright (c) 2016 HackMIT. Released under the [Apache 2.0 license](LICENSE).
