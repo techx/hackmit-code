@@ -2,6 +2,10 @@
 
 The source code of [code.hackmit.org](http://code.hackmit.org).
 
+The default (and only) branch in this repo is the `gh-pages` branch. Because
+the site is hosted on GitHub pages, any changes pushed to this branch will be
+immediately propagated to the live version of the site.
+
 ## Copyright and License
 
 Copyright (c) 2016 HackMIT. Released under the [Apache 2.0 license](LICENSE).
