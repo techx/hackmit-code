@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="720px" height="720px" viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+<image overflow="visible" width="1920" height="1080" xlink:href="../../../../Documents/TechX/HackMIT/hackmit/static/assets/background.jpg"  transform="matrix(0.6697 0 0 0.6697 -264.5635 -2.5337)">
+</image>
+<g>
+	<polygon fill="#FFFFFF" points="216.739,50.901 216.739,146.489 192.843,146.489 192.843,50.901 61.406,50.901 61.406,337.668 
+		192.843,337.668 192.843,242.08 216.739,242.08 216.739,337.668 348.175,337.668 348.175,50.901 	"/>
+	<polygon fill="#FFFFFF" points="372.073,337.668 515.455,50.901 658.84,337.668 	"/>
+	<g>
+		<polygon fill="#FFFFFF" points="371.826,657.148 371.826,370.379 658.595,370.379 574.954,513.766 658.595,657.148 		"/>
+		<path fill="#FFFFFF" d="M288.186,513.766l56.102-88.307c-28.035-40.496-74.813-67.027-127.794-67.027
+			c-85.788,0-155.333,69.544-155.333,155.333c0,85.787,69.544,155.334,155.333,155.334c52.981,0,99.759-26.533,127.794-67.029
+			L288.186,513.766z"/>
+	</g>
+</g>
+</svg>

@@ -5,9 +5,40 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Lato';
 }
 
 footer {
     margin: 50px 0;
 }
+
+.col-lg-12 {
+	min-height: 100px;
+}
+
+.montserrat-bold-uppercase {
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+.hack-logo {
+	width: auto;
+	height: 50px;
+	color: black;
+}
+
+.hack-logo-container {
+	position: absolute;
+	display: inline-block;
+	margin-right: 3rem;
+}
+
+.btn.btn-primary {
+	border-color: transparent;
+	background-color: #fff;
+	color: #000;
+	text-transform: uppercase;
+	font-family: 'Montserrat;
+}
+
