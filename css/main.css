@@ -56,6 +56,11 @@ h1 {
 	color: #000;
 }
 
+.project-link:hover {
+	text-decoration: none;
+	color: #888;
+}
+
 .montserrat-bold-uppercase {
 	text-transform: uppercase;
 	font-family: 'Montserrat';
