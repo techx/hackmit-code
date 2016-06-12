@@ -76,6 +76,14 @@ footer {
 	background-color: #fff;
 	color: #000;
 	text-transform: uppercase;
-	font-family: 'Montserrat;
+	font-family: 'Montserrat';
 }
 
+#love {
+    text-align: center;
+    font-size: 1em;
+}
+
+.love-icon {
+    color: #c33;
+}
