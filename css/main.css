@@ -29,8 +29,16 @@ h1 {
 @media (max-width: 768px) {
 
 	h1 {
-		font-size: 7.25vw;
+		font-size: 7vw;
 	}
+
+/*	h3 {
+		font-size: 5vw;
+	}
+
+	h4 {
+		font-size: 4.5vw;
+	}*/
 
 	small {
 		font-size: 3vw;
