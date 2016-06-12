@@ -20,21 +20,24 @@ footer {
 	-moz-box-shadow: 0px 2px 5px 2px #ccc;
 	-webkit-box-shadow: 0px 2px 5px 2px #ccc;
 	box-shadow: 0px 2px 5px 2px #ccc;
-/*	border: 1px solid black;
 */}
+
+h1 {
+	font-size: 3.5em;
+}
 
 @media (max-width: 768px) {
 
 	h1 {
-		font-size: 7.5vw;
+		font-size: 6.5vw;
 	}
 
 	h3 {
-		font-size: 4.5vw;
+		font-size: 3.5vw;
 	}
 
 	h4 {
-		font-size: 4vw;
+		font-size: 3vw;
 	}
 
 	small {
