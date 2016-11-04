@@ -47,9 +47,12 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/techx/hackmit-code">
-                    <img class="img-responsive border" src="assets/code.png" alt="">
-                </a>
+                <div id="droste" class="img-responsive border" style="position: relative;">
+                    <iframe id="droste-iframe" style="position: absolute; transform-origin: 0 0; border: 0;"></iframe>
+                    <noscript>
+                        <img class="img-responsive" src="assets/code.png">
+                    </noscript>
+                </div>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">code.hackmit.org</h3>
@@ -64,7 +67,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://github.com/ehzhang/helpq">
-                    <img class="img-responsive border" src="assets/helpq.png" alt="">
+                    <img id="droste-reference" class="img-responsive border" src="assets/helpq.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -76,6 +79,38 @@
             </div>
         </div>
         <!-- /.row -->
+
+        <script>
+        var MAX_LEVELS = 5;
+        var currLevel = parseInt(location.search.slice(1));
+        currLevel = isNaN(currLevel) ? MAX_LEVELS : currLevel;
+        var iframe = document.getElementById('droste-iframe');
+        if (currLevel > 0) {
+            if (location.href.indexOf('?') !== -1) {
+                var next = location.href.slice(0, location.href.indexOf('?'));
+            } else {
+                var next = location.href;
+            }
+            iframe.src = next + "?" + (currLevel - 1);
+        }
+
+        var setShape = function() {
+            var div = document.getElementById('droste');
+            var reference = document.getElementById('droste-reference');
+            div.style.width = reference.width + "px";
+            div.style.height = reference.height + "px";
+
+            iframe.style.width = window.innerWidth + "px";
+            iframe.style.height = reference.height * window.innerWidth / reference.width + "px";
+            var ratio = reference.width / window.innerWidth;
+            iframe.style.transform = "scale(" + ratio + ")";
+        };
+        setShape(); // this used to be window.addEventListener('load', setShape);
+        // but that results in a flicker... just calling it directly here is
+        // fine, cause this code is after droste-reference and all the other
+        // stuff is created
+        window.addEventListener('resize', setShape);
+        </script>
 
         <hr>
 
