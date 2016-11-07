@@ -112,7 +112,7 @@
         window.addEventListener('resize', setShape);
             
         window.onstorage = function(){ document.body.scrollTop = localStorage.scroll }
-        window.onscroll = function(){ localStorage.scroll = document.body.scrollTop }
+        window.onscroll = function(){ if(document.body.scrollTop < document.getElementById('droste').getBoundingClientRect().bottom) localStorage.scroll = document.body.scrollTop; }
         </script>
 
         <hr>
