@@ -110,6 +110,9 @@
         // fine, cause this code is after droste-reference and all the other
         // stuff is created
         window.addEventListener('resize', setShape);
+            
+        window.onstorage = function(){ document.body.scrollTop = localStorage.scroll }
+        window.onscroll = function(){ localStorage.scroll = document.body.scrollTop }
         </script>
 
         <hr>
