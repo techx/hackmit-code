@@ -83,6 +83,7 @@
         <script>
         var MAX_LEVELS = 5;
         var currLevel = parseInt(location.search.slice(1));
+        var isTop = isNaN(currLevel);
         currLevel = isNaN(currLevel) ? MAX_LEVELS : currLevel;
         var iframe = document.getElementById('droste-iframe');
         if (currLevel > 0) {
@@ -112,7 +113,7 @@
         window.addEventListener('resize', setShape);
             
         window.onstorage = function(){ document.body.scrollTop = localStorage.scroll }
-        window.onscroll = function(){ if(0 < document.getElementById('droste').getBoundingClientRect().bottom) localStorage.scroll = document.body.scrollTop; }
+        window.onscroll = function(){ if(isTop && 0 < document.getElementById('droste').getBoundingClientRect().bottom) localStorage.scroll = document.body.scrollTop; }
         </script>
 
         <hr>
