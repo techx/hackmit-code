@@ -87,11 +87,16 @@ h1 {
 	font-family: 'Montserrat';
 }
 
+#opensource {
+    text-align: center;
+    font-size: 1em;
+}
+
 #love {
     text-align: center;
     font-size: 1em;
 }
 
-.love-icon {
+#love-icon {
     color: #c33;
 }

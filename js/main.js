@@ -38,14 +38,15 @@
     };
 
     var update = function() {
-        var love = document.getElementById('love');
+        var love_icon = document.getElementById('love-icon');
+        var love_author = document.getElementById('love-author');
 
         var symbol = String.fromCharCode(uniform(0x2700, 0x27c0));
 
         var author = choice(AUTHORS);
 
-        love.innerHTML = 'Made with <span class="love-icon">' +
-            symbol + '</span> by ' + author;
+        love_icon.innerHTML = symbol;
+        love_author.innerHTML = author;
     };
 
     setInterval(update, LOVE_CHANGE_TIME);
