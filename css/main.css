@@ -67,6 +67,10 @@ h1 {
 	font-weight: 700;
 }
 
+.montserrat-bold-uppercase .project-link {
+    font-weight: 700;
+}
+
 .hack-logo {
 	width: auto;
 	height: 50px;
