@@ -25,7 +25,8 @@
         'Alyssa P. Hacker',
         'John Harvard',
         'Kim Zhong Il',
-        'jizzboi'
+        'jizzboi',
+        'our head of HR'
     ];
 
     // uniform int from [min, max)
