@@ -3,9 +3,20 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@font-face {  
+    font-family: Muli;
+    font-weight: 300;
+    src: url("/fonts/muli.regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Muli";
+    font-weight: 400;
+    src: url("/fonts/muli.regular.ttf");
+    format("truetype");
+}
 body {
-    font-family: 'Lato';
+		font-family: 'Muli Bold';
+		background: linear-gradient(45deg,#96D0F1, #FBCDC2, #96D0F1 );
 }
 
 footer {
@@ -20,12 +31,14 @@ footer {
 	-moz-box-shadow: 0px 2px 5px 2px #ccc;
 	-webkit-box-shadow: 0px 2px 5px 2px #ccc;
 	box-shadow: 0px 2px 5px 2px #ccc;
-*/}
+}
 
 h1 {
 	font-size: 3.5em;
 }
-
+.page-header{
+	text-align: center;
+}
 @media (max-width: 768px) {
 
 	h1 {
@@ -51,7 +64,7 @@ h1 {
 
 .project-link {
 	text-transform: uppercase;
-	font-family: 'Montserrat';
+	font-family: 'Muli';
 	font-weight: 500;
 	color: #000;
 }
@@ -63,7 +76,7 @@ h1 {
 
 .montserrat-bold-uppercase {
 	text-transform: uppercase;
-	font-family: 'Montserrat';
+	font-family: 'Muli';
 	font-weight: 700;
 }
 
@@ -88,7 +101,7 @@ h1 {
 	background-color: #fff;
 	color: #000;
 	text-transform: uppercase;
-	font-family: 'Montserrat';
+	font-family: 'Muli';
 }
 
 #opensource {
@@ -103,4 +116,54 @@ h1 {
 
 #love-icon {
     color: #c33;
+}
+.side-corner-tag {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+} 
+.side-corner-tag p {
+    display: inline;    
+}
+.side-corner-tag p span {
+    position: absolute;
+    display: inline-block;
+    right: -50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2), inset 0px 5px 30px rgba(255,255,255,0.2);
+    text-align: center;
+    text-transform: uppercase;
+    top: 50px;
+    background: #d93131;
+    width: 200px;
+    padding: 3px 10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+} 
+.side-corner-tag p:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -17px;
+    right: 69px;
+    z-index: -1;
+    border: 17px solid;
+    border-color: transparent transparent #662121 transparent;
+}
+.side-corner-tag p:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 74px;
+    z-index: -1;
+    right: -10px;
+    border: 17px solid;
+    border-color: #662121 transparent transparent transparent;
 }
