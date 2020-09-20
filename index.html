@@ -13,10 +13,14 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="2020-favicon.ico">
 
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,11 +49,13 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header montserrat-bold-uppercase">
-                    <img class="hack-logo" src="hack-logo.png" alt="HackMIT logo">
+                    <img class="hack-logo" src="hack-logo-2.png" alt="HackMIT logo">
                      HackMIT
-                    <small>Open Source</small>
+                    <small class="open-source">Open Source</small>
                 </h1>
+                <h3 class="subheader">If you've used one of our projects in the past, please add yourself to <a target="_blank" href="https://github.com/techx/hackmit-code/wiki/Users">our list!</a></h3>
             </div>
+
         </div>
 
 
@@ -74,20 +80,67 @@
 
         <hr>
         -->
-
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/techx/quill">
+                <a href="https://github.com/techx/playground" target="_blank">
+                    <img class="img-responsive border" src="assets/playground.png" alt="splash-2020">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3 class="montserrat-bold-uppercase">
+                    <a class="project-link" target="_blank" href="https://github.com/techx/playground" target="_blank">
+                        playground</a>
+                </h3>
+                <h4>A virtual environment for hackers</h4>
+                <p>Hack Playground is a virtual world that brings HackMIT, one of the largest undergraduate hackathons, right to
+                    your home.
+                    Playground preserves the atmosphere of innovation and connection of a hackathon. You can walk through the
+                    Sponsor Town
+                    and schedule a coffee chat with a sponsor, gain inspiration by visiting the Nonprofit Village, or chat with
+                    other
+                    hackers.</p>
+                <a class="project-link" target="_blank" href="https://github.com/techx/playground">View Project</a>
+            </div>
+        
+        </div>
+        
+        <hr>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="side-corner-tag">
+                    <a href="https://github.com/techx/appreader" target="_blank"></a>
+                    <img class="img-responsive border" src="assets/appreader.png" alt="comingsoon">
+                    <p><span>Coming Soon</span></p>
+                </div>
+            </div>
+        
+            <div class="col-md-5">
+                <h3 class="montserrat-bold-uppercase">
+                    <a class="project-link" target="_blank" href="https://github.com/techx/appreader" target="_blank">
+                        appreader</a>
+                </h3>
+                <h4>A management system for reading applications</h4>
+                <p>We use appreader to manage the thousands of applications we receive for HackMIT each year. The website streamlines the admissions process by distributing apps to team members, keeping track of applications scores, and running a scoring algorithm to generate a final list of admitted applicants. The open source version will be coming soon!
+                </p>
+                <a class="project-link" target="_blank" href="https://github.com/techx/appreader">View Project</a>
+            </div>
+        
+        </div>
+        
+        <hr>
+        <div class="row">
+            <div class="col-md-7">
+                <a href="https://github.com/techx/quill" target="_blank">
                     <img id="droste-reference" class="img-responsive border" src="assets/quill.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/techx/quill">Quill</a>
+                    <a class="project-link" target="_blank" href="https://github.com/techx/quill">Quill</a>
                 </h3>
                 <h4>Registration, for hackathons!</h4>
                 <p> Quill is HackMIT's hackathon registration portal. For hackers, it's a clean and streamlined interface to submit registration and confirmation information. For hackathon organizers, it's an easy way to manage applications, view registration stats, check-in hackers day-of, and more! </p> 
-                <a class="project-link" href="https://github.com/techx/quill">View Project</a>
+                <a class="project-link" target="_blank" href="https://github.com/techx/quill">View Project</a>
             </div>
         </div>
 
@@ -95,18 +148,21 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/ehzhang/helpq">
+                <a href="https://github.com/ehzhang/helpq" target="_blank">
                     <img id="droste-reference" class="img-responsive border" src="assets/helpq.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/ehzhang/helpq">HELPq</a>
+                    <a class="project-link" href="https://github.com/ehzhang/helpq" target="_blank">HELPq</a>
                 </h3>
                 <h4>An extensible, customizable real-time queue system</h4>
                 <p>HELPq was originally built for HackMIT, but has been used at hackathons like Blueprint, Meteor Summer Hackathon 2015, WHACK, MakeMIT and WildHacks (among others!).</p>
                 <p>It is a real-time help queue and mentor management application, targeted at hackathons and classrooms, where there is a need for issues to be claimed and satisfied within minutes. It includes a simple interface for requesting tickets, claiming tickets, administrating users/mentors, and examining metrics.</p>
-                <a class="project-link" href="https://github.com/ehzhang/helpq">View Project</a>
+                <div class="link-container">
+                <a class="project-link" href="https://github.com/techx/helpqueue" target="_blank">View Project</a>
+                <a class="project-link" href="https://github.com/ehzhang/helpq" target="_blank">Older Version</a>
+                </div>
             </div>
         </div>
 
@@ -152,17 +208,17 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/anishathalye/gavel">
+                <a href="https://github.com/anishathalye/gavel" target="_blank">
                     <img class="img-responsive border" src="assets/gavel.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/anishathalye/gavel">Gavel</a>
+                    <a class="project-link" href="https://github.com/anishathalye/gavel" target="_blank">Gavel</a>
                 </h3>
                 <h4>A project expo judging system</h4>
                 <p>Gavel is the judging system used at HackMIT. It incorporates a lot of research on mathematical psychology along with fancy math to produce very fair judging results. It's capable of scaling to large events, being used at HackMIT's 1000-person hackathon.</p>
-                <a class="project-link" href="https://github.com/anishathalye/gavel">View Project</a>
+                <a class="project-link" href="https://github.com/anishathalye/gavel" target="_blank">View Project</a>
             </div>
         </div>
 
@@ -170,17 +226,17 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/techx/cog">
+                <a href="https://github.com/techx/cog" target="_blank">
                     <img class="img-responsive border" src="assets/cog.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/techx/cog">Cog</a>
+                    <a class="project-link" target="_blank" href="https://github.com/techx/cog">Cog</a>
                 </h3>
                 <h4>A hardware checkout system </h4>
                 <p>Cog is the hardware checkout system that we beta-tested at HackMIT 2017. It makes it easy for organizers to manage hardware inventory and track which hackers have what, and it allow hackers to quickly find the hardware they want for their hack.</p>
-                <a class="project-link" href="https://github.com/techx/cog">View Project</a>
+                <a class="project-link" target="_blank" href="https://github.com/techx/cog">View Project</a>
             </div>
         </div>
 
@@ -188,17 +244,17 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/anishathalye/offix">
-                    <img class="img-responsive border" src="assets/offix.png" alt="">
+                <a href="https://github.com/anishathalye/offix" target="_blank">
+                    <img class="img-responsive border" src="assets/offix.png" target="_blank" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/anishathalye/offix">OffiX</a>
+                    <a class="project-link" href="https://github.com/anishathalye/offix" target="_blank">OffiX</a>
                 </h3>
                 <h4>"Who is in the office?"</h4>
                 <p>A WiFi-based presence sharing system for specific physical spaces.</p>
-                <a class="project-link" href="https://github.com/anishathalye/offix">View Project</a>
+                <a class="project-link" href="https://github.com/anishathalye/offix" target="_blank">View Project</a>
             </div>
         </div>
 
@@ -206,17 +262,17 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/techx/hackmit-puzzle-2017">
+                <a href="https://github.com/techx/hackmit-puzzle-2020" target="_blank">
                     <img class="img-responsive border" src="assets/puzzle.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/techx/hackmit-puzzle-2017">HackMIT Puzzle</a>
+                    <a class="project-link" target="_blank" href="https://github.com/techx/hackmit-puzzle-2020">HackMIT Puzzle</a>
                 </h3>
                 <h4>Getting stumped during a trip Hack to the Future</h4>
-                <p>Each year, HackMIT releases a challenging online puzzle in conjuction with registration. Our 2017 puzzle incorporated our Hack to the Future theme, and featured challenges involving reverse-engineering, CAPTCHAs, secret codes, and neural networks, among many other things!</p>
-                <a class="project-link" href="https://github.com/techx/hackmit-puzzle-2017">View Project</a>
+                <p>Each year, HackMIT releases a challenging online puzzle in conjuction with registration. Our 2020 puzzle incorporated our Hack to the Future theme, and featured challenges involving reverse-engineering, CAPTCHAs, secret codes, and neural networks, among many other things!</p>
+                <a class="project-link" target="_blank" href="https://github.com/techx/hackmit-puzzle-2020">View Project</a>
             </div>
         </div>
 
@@ -224,17 +280,37 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/Detry322/redisred">
+                <a href="https://github.com/techx/hackmit-splash-2020" target="_blank">
+                    <img class="img-responsive border" src="assets/splash-2020.png" alt="splash-2020">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3 class="montserrat-bold-uppercase">
+                    <a class="project-link" target="_blank" href="https://github.com/techx/hackmit-splash-2020" target="_blank">
+                        hackmit.org</a>
+                </h3>
+                <h4>The HackMIT splash site</h4>
+                <p>The HackMIT homepage, with code released under an MIT license and content/assets released under a CC BY-NC-ND
+                    license.</p>
+                <a class="project-link" target="_blank" href="https://github.com/techx/hackmit-splash-2020">View Project</a>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="row">
+            <div class="col-md-7">
+                <a href="https://github.com/Detry322/redisred" target="_blank">
                     <img class="img-responsive border" src="assets/redisred.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/Detry322/redisred">Redisred</a>
+                    <a class="project-link" href="https://github.com/Detry322/redisred" target="_blank">Redisred</a>
                 </h3>
                 <h4>A small Redis-based URL redirector</h4>
                 <p>Redisred is a small Redis-based URL redirector with great Slack integration!</p>
-                <a class="project-link" href="https://github.com/Detry322/redisred">View Project</a>
+                <a class="project-link" href="https://github.com/Detry322/redisred" target="_blank">View Project</a>
             </div>
         </div>
 
@@ -242,17 +318,17 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/Detry322/hubot-redisred">
+                <a href="https://github.com/Detry322/hubot-redisred" target="_blank">
                     <img class="img-responsive border" src="assets/hubot-redisred.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/Detry322/hubot-redisred">hubot-redisred</a>
+                    <a class="project-link" href="https://github.com/Detry322/hubot-redisred" target="_blank">hubot-redisred</a>
                 </h3>
                 <h4>A Hubot plugin for Redisred</h4>
-                <p>hubot-redisred is the most convenient way to use Redisred.</p>
-                <a class="project-link" href="https://github.com/Detry322/hubot-redisred">View Project</a>
+                <p>Hubot-redisred is the most convenient way to use Redisred.</p>
+                <a class="project-link" href="https://github.com/Detry322/hubot-redisred" target="_blank">View Project</a>
             </div>
         </div>
 
@@ -260,17 +336,17 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/anishathalye/hubot-group">
+                <a href="https://github.com/anishathalye/hubot-group" target="_blank">
                     <img class="img-responsive border" src="assets/hubot-group.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/anishathalye/hubot-group">hubot-group</a>
+                    <a class="project-link" href="https://github.com/anishathalye/hubot-group" target="_blank">hubot-group</a>
                 </h3>
                 <h4>A Hubot plugin that expands mentions of groups</h4>
-                <p>hubot-group lets you easily @mention groups of people.</p>
-                <a class="project-link" href="https://github.com/anishathalye/hubot-group">View Project</a>
+                <p>Hubot-group lets you easily @mention groups of people.</p>
+                <a class="project-link" href="https://github.com/anishathalye/hubot-group" target="_blank">View Project</a>
             </div>
         </div>
 
@@ -279,17 +355,17 @@
         <div class="row">
 
             <div class="col-md-7">
-                <a href="https://github.com/anishathalye/hubot-conf">
+                <a href="https://github.com/anishathalye/hubot-conf" target="_blank">
                     <img class="img-responsive border" src="assets/hubot-conf.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/anishathalye/hubot-conf">hubot-conf</a>
+                    <a class="project-link" href="https://github.com/anishathalye/hubot-conf" target="_blank">hubot-conf</a>
                 </h3>
                 <h4>A configuration management system for Hubot</h4>
-                <p>hubot-conf is a two-part configuration management system for Hubot. It can be used by Hubot script implementors to read configuration values. It can also be used by Hubot users to be able to dynamically set (or override) configuration values through the chat interface.</p>
-                <a class="project-link" href="https://github.com/anishathalye/hubot-conf">View Project</a>
+                <p>Hubot-conf is a two-part configuration management system for Hubot. It can be used by Hubot script implementors to read configuration values. It can also be used by Hubot users to be able to dynamically set (or override) configuration values through the chat interface.</p>
+                <a class="project-link" href="https://github.com/anishathalye/hubot-conf" target="_blank">View Project</a>
             </div>
         </div>
 
@@ -297,40 +373,28 @@
 
         <div class="row">
             <div class="col-md-7">
-                <a href="https://github.com/anishathalye/hubot-shortcut">
+                <a href="https://github.com/anishathalye/hubot-shortcut" target="_blank">
                     <img class="img-responsive border" src="assets/hubot-shortcut.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
                 <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/anishathalye/hubot-shortcut">hubot-shortcut</a>
+                    <a class="project-link" href="https://github.com/anishathalye/hubot-shortcut" target="_blank">hubot-shortcut</a>
                 </h3>
                 <h4>A macro system for Hubot</h4>
-                <p>hubot-shortcut lets you create !shortcuts for your Hubot commands.</p>
-                <a class="project-link" href="https://github.com/anishathalye/hubot-shortcut">View Project</a>
+                <p>Hubot-shortcut lets you create !shortcuts for your Hubot commands.</p>
+                <a class="project-link" href="https://github.com/anishathalye/hubot-shortcut" target="_blank">View Project</a>
             </div>
         </div>
 
         <hr>
 
-        <div class="row">
-            <div class="col-md-7">
-                <a href="https://github.com/techx/hackmit-splash-2017">
-                    <img class="img-responsive border" src="assets/splash.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3 class="montserrat-bold-uppercase">
-                    <a class="project-link" href="https://github.com/techx/hackmit-splash-2017">hackmit.org</a>
-                </h3>
-                <h4>The HackMIT splash site</h4>
-                <p>The HackMIT homepage, with code released under an MIT license and content/assets released under a CC BY-NC-ND license.</p>
-                <a class="project-link" href="https://github.com/techx/hackmit-splash">View Project</a>
-            </div>
-        </div>
+        
 
+
+        
+        
         <hr>
-
         <!-- Footer -->
         <footer>
             <div class="row">
