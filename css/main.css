@@ -6,19 +6,21 @@
 @font-face {  
     font-family: Muli;
     font-weight: 300;
-    src: url("/fonts/muli.regular.ttf") format("truetype");
+    src: url("fonts/muli.regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "Muli";
     font-weight: 400;
-    src: url("/fonts/muli.regular.ttf");
-    format("truetype");
+    src: url("fonts/muli.regular.ttf") format("truetype");
 }
 body {
-		font-family: 'Muli Bold';
-		background: linear-gradient(45deg,#96D0F1, #FBCDC2, #96D0F1 );
+    font-family: 'Lato';
+    background: linear-gradient(45deg,#96D0F1, #FBCDC2, #96D0F1 );
 }
-
+/* 		font-family: 'Muli Bold';
+		
+}
+ */
 footer {
     margin: 50px 0;
 }
@@ -39,6 +41,16 @@ h1 {
 .page-header{
 	text-align: center;
 }
+
+.subheader {
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
+
+.subheader a {
+    color: #34bac8;
+}
+
 @media (max-width: 768px) {
 
 	h1 {
@@ -62,9 +74,13 @@ h1 {
 	}
 }
 
+.link-container {
+    display: flex;
+    justify-content: space-between;
+}
 .project-link {
 	text-transform: uppercase;
-	font-family: 'Muli';
+	font-family: 'Montserrat';
 	font-weight: 500;
 	color: #000;
 }
@@ -76,7 +92,7 @@ h1 {
 
 .montserrat-bold-uppercase {
 	text-transform: uppercase;
-	font-family: 'Muli';
+	font-family: 'Montserrat';
 	font-weight: 700;
 }
 
@@ -101,7 +117,7 @@ h1 {
 	background-color: #fff;
 	color: #000;
 	text-transform: uppercase;
-	font-family: 'Muli';
+	font-family: 'Montserrat';
 }
 
 #opensource {
@@ -123,7 +139,7 @@ h1 {
     display: inline-block;
     padding: 5px;
     overflow: hidden;
-    font-family: Arial, sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 900;
 } 
 .side-corner-tag p {
