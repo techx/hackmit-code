@@ -80,14 +80,15 @@ h1 {
 }
 .project-link {
 	text-transform: uppercase;
-	font-family: 'Montserrat';
+    font-family: 'Montserrat';
 	font-weight: 500;
-	color: #000;
+	color: rgb(75, 157, 53);
+    box-shadow: 5px 0px 5px 0px #1d3414;
 }
 
 .project-link:hover {
 	text-decoration: none;
-	color: #888;
+	color: rgb(55, 104, 17);
 }
 
 .montserrat-bold-uppercase {
@@ -127,7 +128,10 @@ h1 {
 
 #love {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-family: "sans-serif";
+    color:darkgreen;
+    box-shadow: 5px 0px 5px 0px #3a96ba;
 }
 
 #love-icon {
